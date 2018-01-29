@@ -1,7 +1,14 @@
 # LeetCode
 
-The solution of LeetCode. 
+All of about LeetCode. 
 
-- [The summary of resolving algorithms](https://github.com/TaogenJia/LeetCode/blob/master/algorithm_summary.md)
+### Solution
+
+- [solutions of Algorithm]()
+- [solutinos of Database SQL](https://github.com/TaogenJia/LeetCode/tree/master/Database-SQL)
+
+### Other
+
+- [The summary of algorithms](https://github.com/TaogenJia/LeetCode/blob/master/algorithm_summary.md)
 
 
