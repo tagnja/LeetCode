@@ -5,7 +5,7 @@
 ##### 两个字符串对比，寻找重复的字母？
 
 i. 对于规模较小的两个字符串，可以使用两个for循环逐一对比。复杂度 O(n)=m*n or n*n  
-类似问题：[E771](https://github.com/TaogenJia/LeetCode/blob/master/Algorithm-Easy/E771_JewelsAndStones.java)
+类似问题：[E771_JewelsAndStones](https://github.com/TaogenJia/LeetCode/blob/master/Algorithm/E771_JewelsAndStones.java)
 
 ### Integer
 
