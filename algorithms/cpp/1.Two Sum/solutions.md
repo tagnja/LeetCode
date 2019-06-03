@@ -1,5 +1,3 @@
-
-
 ### Solution 1: Using HashMap
 
 ```java
@@ -24,5 +22,10 @@ public int[] twoSum(int[] nums, int target) {
 }
 ```
 
+Time Complexity: 
 
+for -> O(n)
 
+HashMap -> O(1)
+
+so, T(n) = O(n)
