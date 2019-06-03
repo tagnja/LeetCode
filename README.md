@@ -4,10 +4,10 @@ My Solutions on LeetCode.
 
 **Algorithms**
 
-| #    | Title           | Solution | Difficulty | Tags |
-| ---- | --------------- | -------- | ---------- | ---- |
-| 2    | Add Two Numbers |          | Medium     |      |
-| 1    | Two Sum         |          | Easy       |      |
+| #    | Title           | Solutions | Difficulty | Tags      |
+| ---- | --------------- | --------- | ---------- | --------- |
+| 2    | Add Two Numbers |           | Medium     |           |
+| 1    | Two Sum         | TO REDO   | Easy       | `#number` |
 
 **Tags**
 
