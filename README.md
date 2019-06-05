@@ -4,10 +4,11 @@ My Solutions on LeetCode.
 
 **Algorithms**
 
-| #    | Title           | Solutions                                                 | Difficulty | Tags          |
-| ---- | --------------- | --------------------------------------------------------- | ---------- | ------------- |
-| 2    | Add Two Numbers | [Java](algorithms/java/2AddTwoNumbers/AddTwoNumbers.java) | Medium     | `#linkedlist` |
-| 1    | Two Sum         | TO REDO                                                   | Easy       | `#number`     |
+| #    | Title                                          | Solutions                                                    | Difficulty | Tags          |
+| ---- | ---------------------------------------------- | ------------------------------------------------------------ | ---------- | ------------- |
+| 3    | Longest Substring Without Repeating Characters | [Java](algorithms\java\3LongestSubstringWithoutRepeatingCharacters) | Medium     | `#DP`         |
+| 2    | Add Two Numbers                                | [Java](algorithms/java/2AddTwoNumbers/AddTwoNumbers.java)    | Medium     | `#linkedlist` |
+| 1    | Two Sum                                        | TO REDO                                                      | Easy       | `#number`     |
 
 **Tags**
 
