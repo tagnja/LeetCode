@@ -21,17 +21,23 @@ My Solutions on LeetCode.
   - Branch-and-bound 
   - Enumeration (#enum)
 - Algorithms Class
-  - Search (#search)
-  - Number(Binary) Game (#number)
+  - Searching (#search)
+  - Sorting
+  - Graph DFS, BFS
+  - Bit (#bit)
+  - Number Game (#number)
   - Math (#math)
 - Data Structure
   - Array (#array)
   - Linked List (#linkedlist)
-  - Hash Table (#hash)
   - Stack (#stack)
   - Queue (#queue)
   - Tree (#tree)
   - Graph (#graph)
+  - Hashing (#hash)
+  - Matrix (#matrix)
+  - String (#string)
+  - Advanced Data Structure
 
 
 
