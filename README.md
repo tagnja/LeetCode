@@ -6,6 +6,7 @@ My Solutions on LeetCode.
 
 | #    | Title                                          | Solutions                                                    | Difficulty | Tags               |
 | ---- | ---------------------------------------------- | ------------------------------------------------------------ | ---------- | ------------------ |
+| 6    | ZigZag Conversion                              | [cpp](algorithms/cpp/0006-ZigZagConversion/ZigZagConversion.cpp) | Medium     | `#string`          |
 | 5    | Longest Palindromic Substring                  | [Java](algorithms/java/5LongestPalindromicSubstring/LongestPalindromicSubstring.java) | Medium     | `#enum`            |
 | 3    | Longest Substring Without Repeating Characters | [Java](algorithms/java/3LongestSubstringWithoutRepeatingCharacters/LongestSubstringWithoutRepeatingCharacters.java) | Medium     | `#DP`              |
 | 2    | Add Two Numbers                                | [Java](algorithms/java/2AddTwoNumbers/AddTwoNumbers.java)    | Medium     | `#linkedlist`      |
