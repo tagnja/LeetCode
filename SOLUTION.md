@@ -6,6 +6,7 @@
 
 | #    | Title                                          | Solutions                                                    | Difficulty | Tags          | Tips & Notices                                               |
 | ---- | ---------------------------------------------- | ------------------------------------------------------------ | ---------- | ------------- | ------------------------------------------------------------ |
+| 8    | String to Integer                              | [cpp](algorithms/cpp/0008-StringToInteger/StringToInteger.cpp) | Medium     | `#string`     | Notice: Input string type is too many and  judgement is difficult. |
 | 7    | Reverse Integer                                | [cpp](algorithms/cpp/0007-ReverseInteger/ReverseInteger.cpp) | Easy       | `#number`     | Notice: (1)number overflow detection. Convert * to /. (2) Positive and negative max value is not equal. Can't use abs(x) < max_val to judge overflow. |
 | 6    | ZigZag Conversion                              | [cpp](algorithms/cpp/0006-ZigZagConversion/ZigZagConversion.cpp) | Medium     | `#string`     | String handle                                                |
 | 5    | Longest Palindromic Substring                  | [Java](algorithms/java/5LongestPalindromicSubstring/LongestPalindromicSubstring.java) | Medium     | `#enum`       |                                                              |
