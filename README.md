@@ -6,6 +6,7 @@ My Solutions on LeetCode.
 
 | #    | Title                                          | Solutions                                                    | Difficulty | Tags               |
 | ---- | ---------------------------------------------- | ------------------------------------------------------------ | ---------- | ------------------ |
+| 9    | Palindrome Number                              | [cpp](algorithms/cpp/0009-PalindromeNumber)                  | Easy       | `#number`          |
 | 8    | String to Integer                              | [cpp](algorithms/cpp/0008-StringToInteger/StringToInteger.cpp) | Medium     | `#string`          |
 | 7    | Reverse Integer                                | [cpp](algorithms/cpp/0007-ReverseInteger/ReverseInteger.cpp) | Easy       | `#number`          |
 | 6    | ZigZag Conversion                              | [cpp](algorithms/cpp/0006-ZigZagConversion/ZigZagConversion.cpp) | Medium     | `#string`          |
