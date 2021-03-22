@@ -47,21 +47,18 @@ import java.util.Arrays;
 
 public class AddTwoNumbers {
     public static void main(String[] args) {
+        System.out.println("example 1");
         Solution solution = new AddTwoNumbers().new Solution();
-//        ListNode l1 = new ListNode(2);
-//        l1.next = new ListNode(4);
-//        l1.next.next = new ListNode(3);
-//        ListNode l2 = new ListNode(5);
-//        l2.next = new ListNode(6);
-//        l2.next.next = new ListNode(4);
-//        ListNode result = solution.addTwoNumbers(l1, l2);
+        ListNode l1 = ListNode.constructLinkByArray(
+                Arrays.asList(2, 4, 3));
+        ListNode l2 = ListNode.constructLinkByArray(
+                Arrays.asList(5, 6, 4));
+        ListNode.printLink(solution.addTwoNumbers(l1, l2));
         System.out.println("example 2");
-        Integer a[] = {9, 9, 9, 9, 9, 9, 9};
-        Integer b[] = {9, 9, 9, 9};
-        ListNode l21 = ListNode.constructLinkByArray(Arrays.asList(a));
-        ListNode.printLink(l21);
-        ListNode l22 = ListNode.constructLinkByArray(Arrays.asList(b));
-        ListNode.printLink(l22);
+        ListNode l21 = ListNode.constructLinkByArray(
+                Arrays.asList(9, 9, 9, 9, 9, 9, 9));
+        ListNode l22 = ListNode.constructLinkByArray(
+                Arrays.asList(9, 9, 9, 9));
         ListNode.printLink(solution.addTwoNumbers(l21, l22));
     }
     //leetcode submit region begin(Prohibit modification and deletion)
@@ -82,10 +79,10 @@ public class AddTwoNumbers {
              * Must clear what is the definite end loop condition
              */
             // add two linked list
-            ListNode resultLink = new ListNode();
-            ListNode root = resultLink;
-            int over = 0;
-            while (l1 != null || l2 != null || over > 0) {
+            ListNode root = new ListNode();
+            ListNode current = root;
+            int carryNumber = 0;
+            while (l1 != null || l2 != null || carryNumber > 0) {
                 int sum = 0;
                 if (l1 != null) {
                     sum += l1.val;
@@ -93,11 +90,11 @@ public class AddTwoNumbers {
                 if (l2 != null) {
                     sum += l2.val;
                 }
-                sum += over;
-                int result = sum % 10;
-                root.next = new ListNode(result);
-                over = sum / 10;
-                root = root.next;
+                sum += carryNumber;
+                int remainder = sum % 10;
+                current.next = new ListNode(remainder);
+                carryNumber = sum / 10;
+                current = current.next;
                 if (l1 != null) {
                     l1 = l1.next;
                 }
@@ -105,7 +102,7 @@ public class AddTwoNumbers {
                     l2 = l2.next;
                 }
             }
-            return resultLink.next;
+            return root.next;
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
