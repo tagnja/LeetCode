@@ -53,9 +53,7 @@ public class TwoSum{
        int nums[] = {3, 2, 4};
        int target = 6;
       int[] result = solution.twoSum(nums, target);
-      for (int i = 0; i < result.length; i++) {
-          System.out.println(result[i]);
-      }
+      System.out.println(Arrays.toString(result));
   }
   //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
