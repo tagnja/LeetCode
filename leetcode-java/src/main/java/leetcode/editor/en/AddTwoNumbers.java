@@ -76,7 +76,11 @@ public class AddTwoNumbers {
     class Solution {
         public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
             /**
-             * Must clear what is the definite end loop condition
+             * Note: Must clear what is the definite end loop condition
+             * Result:
+             * T(n) = O(n), S(n) = O(n)
+             * Runtime faster than 77.52%,
+             * Memory usage less than 60.8%
              */
             // add two linked list
             ListNode root = new ListNode();

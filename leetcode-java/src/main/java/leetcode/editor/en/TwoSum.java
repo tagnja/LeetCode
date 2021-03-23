@@ -58,6 +58,12 @@ public class TwoSum{
   //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int[] twoSum(int[] nums, int target) {
+        /**
+         * Result:
+         * T(n) = O(n^2), S(n) = O(1)
+         * Runtime faster than 100%,
+         * Memory usage less than 74.91%
+         */
         if (nums == null || nums.length < 2) {
             return null;
         }
