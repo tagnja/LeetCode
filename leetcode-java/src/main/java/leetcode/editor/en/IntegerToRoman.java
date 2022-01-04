@@ -79,18 +79,19 @@ class Solution {
         int i = 6;
         int divisor = romanValues[i];
         while (num % divisor != 0 || i >= 0) {
-            if (num / divisor == 9) {
+            int quotient = num / divisor;
+            if (quotient == 9) {
                 sb.append(romanSymbols[i]).append(romanSymbols[i + 2]);
-            } else if (num / divisor < 9 && num / divisor >= 5) {
+            } else if (quotient < 9 && quotient >= 5) {
                 sb.append(romanSymbols[i + 1]);
-                for (int j = 0; j < num / divisor - 5; j++) {
+                for (int j = 0; j < quotient - 5; j++) {
                     sb.append(romanSymbols[i]);
                 }
-            } else if (num / divisor == 4) {
+            } else if (quotient == 4) {
                 sb.append(romanSymbols[i]);
                 sb.append(romanSymbols[i + 1]);
-            } else if (num / divisor > 0 && num / divisor < 4) {
-                for (int j = 0; j < num / divisor; j++) {
+            } else if (quotient > 0 && quotient < 4) {
+                for (int j = 0; j < quotient; j++) {
                     sb.append(romanSymbols[i]);
                 }
             }
