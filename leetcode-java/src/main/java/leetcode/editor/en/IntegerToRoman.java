@@ -78,7 +78,7 @@ class Solution {
         int[] romanValues = {1, 5, 10, 50, 100, 500, 1000};
         int i = 6;
         int divisor = romanValues[i];
-        while (num % divisor != 0 || i >= 0) {
+        while (i >= 0) {
             int quotient = num / divisor;
             if (quotient == 9) {
                 sb.append(romanSymbols[i]).append(romanSymbols[i + 2]);
